@@ -4,7 +4,3 @@ def nround(x):
         return int(x // 1 + 1)
     elif x % 1 < 0.5:
         return int(x // 1)
-    
-
-x = input("Foo: ")
-print(nround(x))
